@@ -151,23 +151,12 @@ Ejecutar los scripts en este orden exacto:
 
 ## Conexión desde Aplicaciones
 
-### Connection String para IIS/.NET
-```
-Server=DESKTOP-T4PEHDE;
-Database=GymDB;
-User Id=GymAppUser;
-Password=GymApp@2025!;
-TrustServerCertificate=True;
-```
+Los connection strings se configuran en variables
+de entorno o en el gestor de secretos del servidor.
+No se almacenan en el repositorio por seguridad.
 
-### Connection String para Reportes (Solo Lectura)
-```
-Server=DESKTOP-T4PEHDE;
-Database=GymDB;
-User Id=usr_reportes;
-Password=Rep0rtes@2025!;
-TrustServerCertificate=True;
-```
+Contactar al DBA para obtener acceso.
+
 
 ---
 
